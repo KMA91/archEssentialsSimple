@@ -23,8 +23,9 @@ body, html {
 }
 
 .top {
-  padding-top: 15px;
-  height: 200px;
+  padding: unset;
+  margin-top: 25px;
+  margin-bottom: 400px;
 }
 
 .top h1, .top img {
@@ -62,7 +63,7 @@ body, html {
 }
 
 .skill--container {
-  min-height: 175px;
+  min-height: 191px;
   padding: 30px;
 }
 
