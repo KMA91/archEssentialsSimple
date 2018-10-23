@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  font-family: 'Chivo', sans-serif;
+  color: #000cb1;
+}
+
+.main--background {
+  margin: 0;
+  background-image: url(../images/oskars-sylwan.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  border: 15px solid white;
+}
+
+.top, .middle, .bottom {
+  margin: 15px 0;
+  padding: 25px 10px;
+  text-align: center;
+  background: #98989870;
+  border-radius: 3px;
+}
+
+.top {
+  padding-top: 15px;
+  height: 200px;
+}
+
+.top h1, .top img {
+  display: inline;
+}
+
+.box-shadow {
+  background: #ffffffc2;
+  /* margin: 10px 15px; */
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px #8a8a8a;
+}
+
+.top--header {
+  margin-top: 1px;
+  margin-bottom: 17px;
+}
+
+.top--header h1 {
+  letter-spacing: 2px;
+  font-size: 28px;
+  margin-left: 1px;
+  color: #000fd4;
+}
+
+.top--phrase p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.bottom--beliefs {
+  padding: 0 20px;
+}
+
+.skill--container {
+  min-height: 175px;
+  padding: 30px;
+}
+
+.skill--container i {
+  color: red;
+}
+
+.skill {
+  margin-bottom: 10px;
+  padding: 5px;
+  margin: auto;
+}
+
+.bottom--contact h2 {
+  font-size: 20px;
+}
+
+.top img {
+  margin-top: 2px;
+  vertical-align: top;
+  display: inline;
+  height: 25px;
+  background: red;
+  padding: 5px;
+}
