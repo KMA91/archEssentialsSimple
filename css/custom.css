@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: #000cb1;
 }
 
@@ -11,30 +11,73 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
-  border: 15px solid white;
+  border: 2px solid white;
+  /* border-top: none; */
+  /* border-bottom: none; */
 }
 
 .top, .middle, .bottom {
   margin: 15px 0;
   padding: 25px 10px;
   text-align: center;
-  background: #98989870;
   border-radius: 3px;
 }
 
 .top {
   padding: unset;
   margin-top: 25px;
-  margin-bottom: 400px;
+  margin-bottom: 600px;
 }
 
 .top h1, .top img {
   display: inline;
 }
 
+.top--quote {
+  margin-top: 215px;
+}
+
+.top--quote p:first-child {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0px;
+  margin: 15px 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.top--quote p:nth-child(2){
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.top--quote a {
+  background: #ff0000ad;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background 1s;
+  padding: 10px;
+  /* width: 450px; */
+}
+
+.top--quote a:hover {
+  background: #ff0000db;
+  transition: background 1s;
+  color: white;
+}
+
+.top--quote a:visited, .top--quote a:active, .top--quote a:link {
+  color: white;
+}
+
 .box-shadow {
-  background: #ffffffc2;
-  /* margin: 10px 15px; */
+  background: #fffffff2;
   padding: 5px;
   border-radius: 3px;
   box-shadow: 2px 2px #8a8a8a;
@@ -43,6 +86,8 @@ body, html {
 .top--header {
   margin-top: 1px;
   margin-bottom: 17px;
+  display: inline;
+  padding: 17px 10px 9px;
 }
 
 .top--header h1 {
@@ -58,6 +103,24 @@ body, html {
   margin-top: 10px;
 }
 
+@media (max-width: 320px) {
+  .top {
+    margin-bottom: 450px;
+  }
+  .top--quote {
+    margin-top: 145px;
+  }
+  .top--quote a {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  .top--quote {
+    margin-top: 340px;
+  }
+}
+
 .bottom--beliefs {
   padding: 0 20px;
 }
@@ -67,8 +130,12 @@ body, html {
   padding: 30px;
 }
 
+.skill--container:not(i) {
+  color: #000071;
+}
+
 .skill--container i {
-  color: red;
+  color: #38386b;
 }
 
 .skill {
@@ -88,4 +155,10 @@ body, html {
   height: 25px;
   background: red;
   padding: 5px;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .skill--container {
+    min-width: 331px;
+  }
 }
